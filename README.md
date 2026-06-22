@@ -6,13 +6,16 @@
 
 ## 📸 Screenshots
 
+View the UI screenshots below to see all features in action:
+
 ### Dashboard Overview
 The main dashboard displays key financial metrics and spending visualizations:
 
-![Dashboard Overview](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/dashboard-overview.png)
+[![Dashboard Overview](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/01-dashboard.png)](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/01-dashboard.png)
 
 **Features shown:**
 - Left sidebar with navigation menu (Dashboard, Transactions, Budgets, Reports, Savings Goals)
+- Profile card with welcome message
 - Four KPI cards:
   - Total Balance (money left after expenses)
   - Monthly Income (₹12,000)
@@ -21,20 +24,39 @@ The main dashboard displays key financial metrics and spending visualizations:
 - Spending by Category donut chart with color-coded legend
 - Monthly Expense Overview bar chart showing income vs expenses
 - Budget status badge ("Within budget" or "Over budget")
-- Difference amount between income and expenses
+- Add Expense form with title, amount, and category selection
+- Recent Expenses list with search, filter, delete, and pagination
 
-### Expense Management
-Add, search, filter, and manage your expenses:
+### Login Page
+Secure authentication with email and password:
 
-![Expense Management](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/expense-management.png)
+[![Login Page](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/03-login.png)](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/03-login.png)
 
 **Features shown:**
-- Add Expense form with title, amount, and category selection
-- Recent Expenses list with real-time data
-- Search functionality to find expenses by title
-- Category filter (All, General, Food, Transport, Shopping, Bills)
-- Delete buttons for each expense
-- Pagination support for large expense lists
+- Clean login form with email and password fields
+- Link to create a new account
+- Professional UI with branding
+
+### Registration Page
+Create a new account with secure password policy:
+
+[![Registration Page](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/04-register.png)](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/04-register.png)
+
+**Features shown:**
+- Full name, email, and password fields
+- Password requirements: 8+ chars, uppercase, number, special character
+- Link to sign in with existing account
+- Form validation and error messages
+
+### Logout Confirmation
+Safe logout with confirmation modal:
+
+[![Logout Confirmation](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/02-logout-confirmation.png)](https://raw.githubusercontent.com/harishbabujobs-ai/Expenses-UI/main/screenshots/02-logout-confirmation.png)
+
+**Features shown:**
+- Confirmation modal before session termination
+- Cancel or confirm logout
+- Protects against accidental logouts
 
 ## ✨ Key Features
 
